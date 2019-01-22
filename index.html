@@ -6,9 +6,56 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Deck-builder</title>
+    <title>Groceries</title>
   </head>
   <body>
+    <form>
+      <div class = "container">
+        <div class = "well">
 
+           <div class="panel">
+             <div class="formInfo">
+               <label for="veggie">Veggie list</label>
+               <input type="text" class="formInfo" id="veggie">
+             </div>
+           </div>
+           <div class="panel">
+             <div class "formInfo">
+               <label for="greens">Green list</label>
+                 <input type="text" class="formInfo" id="green">
+              </div>
+            </div>
+            <div class="panel">
+              <div class "formInfo">
+                <label for="meat">Meat list</label>
+                  <input type="text" class="formInfo" id="meat">
+               </div>
+             </div>
+             <div class="panel">
+               <div class "formInfo">
+                 <label for="fish">Fish list</label>
+                   <input type="text" class="formInfo" id="fish">
+                </div>
+              </div>
+              <div class="panel">
+                <div class "formInfo">
+                  <label for="grains">Grain list</label>
+                    <input type="text" class="formInfo" id="grain">
+                 </div>
+               </div>
+                 <div class="panel">
+                   <div class "formInfo">
+                     <label for="other">Other list</label>
+                       <input type="text" class="formInfo" id="other">
+                   </div>
+                 </div>
+             </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-md" id="submit">Submit</button>
+      </form>
+
+        <ul id= "finalList">
+        </ul>
+    </div>
   </body>
 </html>
